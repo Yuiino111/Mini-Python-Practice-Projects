@@ -79,7 +79,8 @@ def create_spend_chart(categories):
         if i < max_len - 1:
             chart += "\n"
     return chart
-
+    
+#Test
 if __name__ == "__main__":
     food = Category("Food")
     food.deposit(1000, "initial deposit")
